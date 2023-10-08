@@ -1,0 +1,9 @@
+body {
+    background-image: url('../IMG/Financial1.jpg'); /* Cambia 'tu-imagen.jpg' por la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen en el fondo */
+    background-attachment: fixed; /* Mantiene la imagen fija mientras se desplaza la página */
+    color: #333; /* Color del texto en la página, puedes personalizarlo */
+  }
+  

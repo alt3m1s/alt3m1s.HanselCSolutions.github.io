@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#menu {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Cambiamos a flex para que sea horizontal */
+}
+
+#menu li {
+    margin-right: 20px;
+    position: relative;
+    z-index: 2; /* Menú encima de la superposición */
+    
+}
+
+#menu a {
+    text-decoration: none;
+    color: #ffffff;
+    z-index: 2; /* Menú encima de la superposición */
+}
+
+#menu ul ul {
+    display: none;
+    position: absolute;
+    background-color: rgba(251, 253, 255, 0.7); /* Cambiar el color y la opacidad de los submenús */
+    z-index: 2; /* Menú encima de la superposición */
+}
+
+#menu li:hover > ul {
+    display: block;
+}
+
+#menu ul ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap; /* Evitar saltos de línea */
+}
+    #menu ul ul a {
+        color: #000000; /* Cambiar el color de las letras de los submenús */
+    }
+
